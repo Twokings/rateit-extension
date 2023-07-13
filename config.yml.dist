@@ -1,0 +1,41 @@
+# The CSS stylesheet
+stylesheet: rateit.css
+
+# CSS stylesheet location: 'head', 'body' (default: 'head')
+# will locate the CSS in eithe the <head> section or near the end of the <body> 
+# section
+location: head
+
+# Number of stars (default: 5)
+#stars: 5
+
+# Lock the rating stars on a record after a vote is cast. This will prevent
+# reseting the vote & further votes (default: false)
+#lock_after_vote: true
+
+# Increment of voting: '0.25', '0.5', '1' (default: 0.5)
+#increment: 0.5
+
+# Hover tool-tip text for each star
+#tooltips: ['Bad', 'Poor', 'OK', 'Good', 'Superb']
+
+# Size of the stars: 'small' or 'large' (default: small)
+#size: large
+
+# Class for the AJAX repsonse div (default: '')
+#reponse_class: panel
+
+# Message returned to the person giving the rating. Uses the macros: 
+#   %RATING%
+#   %ERROR% 
+#response_msg: "Your rating of %RATING% has been recorded. Thank you!"
+#already_msg: "Sorry, but you've already voted. You can reset your vote and try again, though."
+#error_msg: "A server error has occurred: %ERROR%"
+
+# Class attributes for each message
+#response_msg_class: 
+#already_msg_class: 
+#error_msg_class: 
+
+# Log votes: 'on' or 'off' (default: off)
+#logging: on

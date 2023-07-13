@@ -1,0 +1,28 @@
+{
+	"name" : "bolt/rateit",
+	"description" : "RateIt is extension to display a RateIt page rating widget in your template",
+	"type" : "bolt-extension",
+	"keywords" : [
+		"ratings"
+	],
+	"require" : {
+		"bolt/bolt" : ">=2.0.0,<3.0.0"
+	},
+	"license" : "GPL-3.0+",
+	"authors" : [{
+			"name" : "Gawain Lynch",
+			"email" : "gawain.lynch@gmail.com"
+		}
+	],
+	"autoload" : {
+		"files" : [
+			"init.php"
+		],
+		"psr-4" : {
+			"Bolt\\Extension\\Bolt\\RateIt\\" : [
+				"",
+				"src/"
+			]
+		}
+	}
+}
